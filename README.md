@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @arpitmishra04
 - 👀 I’m interested in Full-Stack Development
-- 🌱 I’m currently learning php
+- 🌱 I’m currently learning javascript
 - 📫 How to reach me https://www.linkedin.com/in/arpit-mishra-201a331b9/
 
 <!---
