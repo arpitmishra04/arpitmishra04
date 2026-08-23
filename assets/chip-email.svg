@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="44" viewBox="0 0 312 44" role="img" aria-label="EMAIL: mishra.arpit4040@gmail.com">
+  <title>EMAIL — mishra.arpit4040@gmail.com</title>
+  <defs>
+    <style>.mono { font-family: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, monospace; }</style>
+  </defs>
+  <rect x="0.5" y="0.5" width="311" height="43" rx="7" fill="#10151E" stroke="#232C3C" />
+  <rect x="1" y="1" width="3" height="42" rx="1.5" fill="#E0A44C" />
+  <text class="mono" x="18" y="25.5" fill="#79839A" font-size="9.5" letter-spacing="1.6" textLength="36.5" lengthAdjust="spacing">EMAIL</text>
+  <text class="mono" x="68.5" y="26.5" fill="#D6DBE4" font-size="12.5" textLength="195" lengthAdjust="spacing">mishra.arpit4040@gmail.com</text>
+  <path d="M278 22h11m-4.5 -4.5l4.5 4.5l-4.5 4.5" fill="none" stroke="#E0A44C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
