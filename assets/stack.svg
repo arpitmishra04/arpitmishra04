@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Stack: interface, services, intelligence, data and platform layers.">
+  <title>Stack</title>
+
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, monospace; }
+    </style>
+    <clipPath id="card3">
+      <rect x="0.5" y="0.5" width="1199" height="439" rx="10" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card3)">
+    <rect width="1200" height="440" fill="#0A0D12" />
+
+    <text class="mono" x="40" y="42" fill="#5C677B" font-size="10.5" letter-spacing="2.6">STACK / BY LAYER</text>
+    <text class="mono" x="1160" y="42" fill="#3C4759" font-size="10.5" letter-spacing="1.6" text-anchor="end">REQUEST ENTERS AT THE TOP</text>
+    <rect x="40" y="60" width="1120" height="1" fill="#1B2432" />
+
+    <!-- depth spine -->
+    <rect x="24" y="92" width="1" height="314" fill="#1B2432" />
+
+    <g transform="translate(0 92)">
+      <rect x="40" width="1120" height="54" rx="6" fill="#10151E" stroke="#1B2432" />
+      <rect x="40" width="3" height="54" rx="1.5" fill="#4FA396" />
+      <text class="mono" x="66" y="31" fill="#9AA4B4" font-size="11.5" letter-spacing="2.4">INTERFACE</text>
+      <g transform="translate(268 14)"><rect width="76.4" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="50.4" lengthAdjust="spacing">Angular</text></g>
+      <g transform="translate(353.4 14)"><rect width="98" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="72" lengthAdjust="spacing">TypeScript</text></g>
+      <g transform="translate(460.4 14)"><rect width="54.8" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="28.8" lengthAdjust="spacing">RxJS</text></g>
+      <g transform="translate(524.2 14)"><rect width="162.8" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="136.8" lengthAdjust="spacing">i18n / localization</text></g>
+      <text class="mono" x="1136" y="31" fill="#3C4759" font-size="11" letter-spacing="2" text-anchor="end">TS</text>
+    </g>
+
+    <g transform="translate(0 157)">
+      <rect x="40" width="1120" height="54" rx="6" fill="#10151E" stroke="#1B2432" />
+      <rect x="40" width="3" height="54" rx="1.5" fill="#E0A44C" />
+      <text class="mono" x="66" y="31" fill="#9AA4B4" font-size="11.5" letter-spacing="2.4">SERVICES</text>
+      <g transform="translate(268 14)"><rect width="90.8" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="64.8" lengthAdjust="spacing">.NET Core</text></g>
+      <g transform="translate(367.8 14)"><rect width="40.4" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="14.4" lengthAdjust="spacing">C#</text></g>
+      <g transform="translate(417.2 14)"><rect width="90.8" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="64.8" lengthAdjust="spacing">REST APIs</text></g>
+      <g transform="translate(517 14)"><rect width="47.6" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="21.6" lengthAdjust="spacing">OOP</text></g>
+      <g transform="translate(573.6 14)"><rect width="62" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="36" lengthAdjust="spacing">SOLID</text></g>
+      <text class="mono" x="1136" y="31" fill="#3C4759" font-size="11" letter-spacing="2" text-anchor="end">C#</text>
+    </g>
+
+    <g transform="translate(0 222)">
+      <rect x="40" width="1120" height="54" rx="6" fill="#10151E" stroke="#1B2432" />
+      <rect x="40" width="3" height="54" rx="1.5" fill="#C9705B" />
+      <text class="mono" x="66" y="31" fill="#9AA4B4" font-size="11.5" letter-spacing="2.4">INTELLIGENCE</text>
+      <g transform="translate(268 14)"><rect width="90.8" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="64.8" lengthAdjust="spacing">LangChain</text></g>
+      <g transform="translate(367.8 14)"><rect width="90.8" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="64.8" lengthAdjust="spacing">LangGraph</text></g>
+      <g transform="translate(467.6 14)"><rect width="141.2" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="115.2" lengthAdjust="spacing">Intent detection</text></g>
+      <g transform="translate(617.8 14)"><rect width="112.4" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="86.4" lengthAdjust="spacing">Prompt evals</text></g>
+      <text class="mono" x="1136" y="31" fill="#3C4759" font-size="11" letter-spacing="2" text-anchor="end">PY</text>
+    </g>
+
+    <g transform="translate(0 287)">
+      <rect x="40" width="1120" height="54" rx="6" fill="#10151E" stroke="#1B2432" />
+      <rect x="40" width="3" height="54" rx="1.5" fill="#4FA396" />
+      <text class="mono" x="66" y="31" fill="#9AA4B4" font-size="11.5" letter-spacing="2.4">DATA</text>
+      <g transform="translate(268 14)"><rect width="119.6" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="93.6" lengthAdjust="spacing">MS SQL Server</text></g>
+      <g transform="translate(396.6 14)"><rect width="62" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="36" lengthAdjust="spacing">T-SQL</text></g>
+      <g transform="translate(467.6 14)"><rect width="134" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="108" lengthAdjust="spacing">Azure AI Search</text></g>
+      <g transform="translate(610.6 14)"><rect width="134" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="108" lengthAdjust="spacing">Vector + hybrid</text></g>
+      <text class="mono" x="1136" y="31" fill="#3C4759" font-size="11" letter-spacing="2" text-anchor="end">SQL</text>
+    </g>
+
+    <g transform="translate(0 352)">
+      <rect x="40" width="1120" height="54" rx="6" fill="#10151E" stroke="#1B2432" />
+      <rect x="40" width="3" height="54" rx="1.5" fill="#E0A44C" />
+      <text class="mono" x="66" y="31" fill="#9AA4B4" font-size="11.5" letter-spacing="2.4">PLATFORM</text>
+      <g transform="translate(268 14)"><rect width="105.2" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="79.2" lengthAdjust="spacing">App Service</text></g>
+      <g transform="translate(382.2 14)"><rect width="119.6" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="93.6" lengthAdjust="spacing">Function Apps</text></g>
+      <g transform="translate(510.8 14)"><rect width="105.2" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="79.2" lengthAdjust="spacing">Service Bus</text></g>
+      <g transform="translate(625 14)"><rect width="112.4" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="86.4" lengthAdjust="spacing">Blob Storage</text></g>
+      <g transform="translate(746.4 14)"><rect width="112.4" height="26" rx="4" fill="#151B26" stroke="#232C3C" /><text class="mono" x="13" y="17.5" fill="#C3CAD6" font-size="12" textLength="86.4" lengthAdjust="spacing">Azure DevOps</text></g>
+      <text class="mono" x="1136" y="31" fill="#3C4759" font-size="11" letter-spacing="2" text-anchor="end">AZURE</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="439" rx="10" fill="none" stroke="#1B2432" />
+  </g>
+</svg>

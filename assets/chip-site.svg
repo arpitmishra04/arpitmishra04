@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213" height="44" viewBox="0 0 213 44" role="img" aria-label="PORTFOLIO: arpitm.in">
+  <title>PORTFOLIO — arpitm.in</title>
+  <defs>
+    <style>.mono { font-family: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, monospace; }</style>
+  </defs>
+  <rect x="0.5" y="0.5" width="212" height="43" rx="7" fill="#10151E" stroke="#232C3C" />
+  <rect x="1" y="1" width="3" height="42" rx="1.5" fill="#C9705B" />
+  <text class="mono" x="18" y="25.5" fill="#79839A" font-size="9.5" letter-spacing="1.6" textLength="65.7" lengthAdjust="spacing">PORTFOLIO</text>
+  <text class="mono" x="97.7" y="26.5" fill="#D6DBE4" font-size="12.5" textLength="67.5" lengthAdjust="spacing">arpitm.in</text>
+  <path d="M179 22h11m-4.5 -4.5l4.5 4.5l-4.5 4.5" fill="none" stroke="#C9705B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

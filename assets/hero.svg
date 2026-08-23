@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="358" viewBox="0 0 1200 358" role="img" aria-label="Arpit Mishra, Software Engineer. Request trace: Angular, .NET Core API, Domain, MS SQL, Azure.">
+  <title>Arpit Mishra - Software Engineer</title>
+
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#151C28" stroke-width="1" />
+    </pattern>
+
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0A0D12" stop-opacity="0" />
+      <stop offset="70%" stop-color="#0A0D12" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0A0D12" stop-opacity="1" />
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E0A44C" stop-opacity="0.9" />
+      <stop offset="18%" stop-color="#26324A" stop-opacity="1" />
+      <stop offset="100%" stop-color="#26324A" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="card">
+      <rect x="0.5" y="0.5" width="1199" height="357" rx="10" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="358" fill="#0A0D12" />
+    <rect width="1200" height="358" fill="url(#grid)" />
+    <rect width="1200" height="358" fill="url(#fade)" />
+
+    <g stroke="#26324A" stroke-width="1" fill="none">
+      <path d="M20 40V20h20" />
+      <path d="M1180 40V20h-20" />
+      <path d="M20 318v20h20" />
+      <path d="M1180 318v20h-20" />
+    </g>
+
+    <text class="mono" x="40" y="66" fill="#8B94A5" font-size="12" letter-spacing="3.4">SOFTWARE ENGINEER</text>
+    <text class="mono" x="228" y="66" fill="#3C4759" font-size="12" letter-spacing="3.4">/</text>
+    <text class="mono" x="248" y="66" fill="#8B94A5" font-size="12" letter-spacing="3.4">HYDERABAD, IN</text>
+
+    <g transform="translate(1006 48)">
+      <rect width="154" height="26" rx="13" fill="#12181F" stroke="#26324A" />
+      <circle cx="17" cy="13" r="4" fill="#E0A44C">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+      <text class="mono" x="32" y="17" fill="#C7B18A" font-size="10.5" letter-spacing="2">RYAN, LLC</text>
+    </g>
+
+    <text class="sans" x="38" y="140" fill="#E8E6E1" font-size="66" font-weight="700" letter-spacing="-1">Arpit Mishra</text>
+
+    <g class="mono" font-size="16" fill="#9AA4B4">
+      <g>
+        <text x="40" y="182" textLength="560" lengthAdjust="spacing">Engineer 1 at Ryan, LLC / Owner Claims Portal, Tracker Pro</text>
+        <rect x="606" y="169" width="9" height="17" fill="#E0A44C">
+          <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.23;0.25;1" dur="19.2s" begin="0s" repeatCount="indefinite" />
+      </g>
+      <g opacity="0">
+        <text x="40" y="182" textLength="430" lengthAdjust="spacing">.NET Core / Angular / MS SQL Server / Azure</text>
+        <rect x="476" y="169" width="9" height="17" fill="#E0A44C">
+          <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.23;0.25;1" dur="19.2s" begin="4.8s" repeatCount="indefinite" />
+      </g>
+      <g opacity="0">
+        <text x="40" y="182" textLength="545" lengthAdjust="spacing">GenAI in production: LangChain, LangGraph, evals</text>
+        <rect x="591" y="169" width="9" height="17" fill="#E0A44C">
+          <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.23;0.25;1" dur="19.2s" begin="9.6s" repeatCount="indefinite" />
+      </g>
+      <g opacity="0">
+        <text x="40" y="182" textLength="470" lengthAdjust="spacing">Previously: Habasit classification, Keka HRMS</text>
+        <rect x="516" y="169" width="9" height="17" fill="#E0A44C">
+          <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.23;0.25;1" dur="19.2s" begin="14.4s" repeatCount="indefinite" />
+      </g>
+    </g>
+
+    <rect x="40" y="210" width="1120" height="1" fill="url(#rule)" />
+    <text class="mono" x="40" y="234" fill="#5C677B" font-size="10.5" letter-spacing="2.6">REQUEST TRACE</text>
+
+    <g transform="translate(0 258)">
+      <g stroke="#26324A" stroke-width="1.5">
+        <path d="M216 23h60" />
+        <path d="M452 23h60" />
+        <path d="M688 23h60" />
+        <path d="M924 23h60" />
+      </g>
+
+      <g fill="#E0A44C">
+        <circle cy="23" r="3">
+          <animate attributeName="cx" values="216;276" dur="1.5s" begin="0s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" begin="0s" repeatCount="indefinite" />
+        </circle>
+        <circle cy="23" r="3">
+          <animate attributeName="cx" values="452;512" dur="1.5s" begin="0.35s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" begin="0.35s" repeatCount="indefinite" />
+        </circle>
+        <circle cy="23" r="3">
+          <animate attributeName="cx" values="688;748" dur="1.5s" begin="0.7s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" begin="0.7s" repeatCount="indefinite" />
+        </circle>
+        <circle cy="23" r="3" fill="#4FA396">
+          <animate attributeName="cx" values="924;984" dur="1.5s" begin="1.05s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" begin="1.05s" repeatCount="indefinite" />
+        </circle>
+      </g>
+
+      <g>
+        <rect x="40" width="176" height="46" rx="6" fill="#10151E" stroke="#26324A" />
+        <rect x="40" width="3" height="46" rx="1.5" fill="#4FA396" />
+        <text class="mono" x="128" y="28" fill="#C3CAD6" font-size="12" letter-spacing="1.6" text-anchor="middle" textLength="96" lengthAdjust="spacing">ANGULAR</text>
+      </g>
+      <g>
+        <rect x="276" width="176" height="46" rx="6" fill="#10151E" stroke="#26324A" />
+        <rect x="276" width="3" height="46" rx="1.5" fill="#E0A44C" />
+        <text class="mono" x="364" y="28" fill="#C3CAD6" font-size="12" letter-spacing="1.6" text-anchor="middle" textLength="120" lengthAdjust="spacing">.NET CORE API</text>
+      </g>
+      <g>
+        <rect x="512" width="176" height="46" rx="6" fill="#10151E" stroke="#26324A" />
+        <rect x="512" width="3" height="46" rx="1.5" fill="#E0A44C" />
+        <text class="mono" x="600" y="28" fill="#C3CAD6" font-size="12" letter-spacing="1.6" text-anchor="middle" textLength="86" lengthAdjust="spacing">DOMAIN</text>
+      </g>
+      <g>
+        <rect x="748" width="176" height="46" rx="6" fill="#10151E" stroke="#26324A" />
+        <rect x="748" width="3" height="46" rx="1.5" fill="#C9705B" />
+        <text class="mono" x="836" y="28" fill="#C3CAD6" font-size="12" letter-spacing="1.6" text-anchor="middle" textLength="86" lengthAdjust="spacing">MS SQL</text>
+      </g>
+      <g>
+        <rect x="984" width="176" height="46" rx="6" fill="#10151E" stroke="#26324A" />
+        <rect x="984" width="3" height="46" rx="1.5" fill="#4FA396" />
+        <text class="mono" x="1072" y="28" fill="#C3CAD6" font-size="12" letter-spacing="1.6" text-anchor="middle" textLength="76" lengthAdjust="spacing">AZURE</text>
+      </g>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="357" rx="10" fill="none" stroke="#1B2432" />
+  </g>
+</svg>
