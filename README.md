@@ -133,22 +133,9 @@ older, from before Tezo, but they're mine:
 
 <br />
 
-```console
-$ trace arpit --follow
-
-[00:00.01]  resolve   Hyderabad, IN · UTC+05:30
-[00:00.04]  identity  Engineer 1 · Ryan, LLC
-[00:00.09]  route     /tracker-pro/owner-claims
-[00:00.11]  upstream  .NET Core → MS SQL → Azure           200 OK
-[00:00.14]  cache     coffee                               HIT
-[00:00.22]  warn      "works on my machine" — investigating
-[00:00.31]  ready     accepting hard problems, clean abstractions,
-                      and code review that actually pushes back
-
-$ trace arpit --contact
-[00:00.01]  linkedin  /in/arpit-mishra-201a331b9
-[00:00.02]  email     mishra.arpit4040@gmail.com
-```
+<p align="center">
+  <img src="./assets/terminal.svg" width="730" alt="A PowerShell session. Get-Engineer returns: Engineer 1 at Ryan, LLC, on the Owner Claims Portal in Tracker Pro, based in Hyderabad, working in .NET Core, Angular, MS SQL Server and Azure, focused on GenAI features that ship with evals attached. Trace-Request then streams a request through auth, api, data and cache, ending open to hard problems, clean abstractions, and code review that actually pushes back." />
+</p>
 
 </details>
 
