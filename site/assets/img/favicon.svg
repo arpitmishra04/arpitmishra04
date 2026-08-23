@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Arpit Mishra">
+  <rect width="64" height="64" rx="14" fill="#0A0D12"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#26324A" stroke-width="1.5"/>
+  <path d="M16 46 25.6 18h3.6L39 46" fill="none" stroke="#E8E6E1" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 37h13.6" fill="none" stroke="#E8E6E1" stroke-width="4.2" stroke-linecap="round"/>
+  <circle cx="47.5" cy="42.5" r="4.5" fill="#E0A44C"/>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Arpit Mishra — Software Engineer. Engineer 1 at Ryan, LLC on the Owner Claims Portal in Tracker Pro.">
+  <title>Arpit Mishra — Software Engineer</title>
+
+  <defs>
+    <style>
+      .mono { font-family: "IBM Plex Mono", ui-monospace, "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: "IBM Plex Sans", "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M45 0H0V45" fill="none" stroke="#151C28" stroke-width="1" />
+    </pattern>
+
+    <radialGradient id="lift" cx="18%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#131B26" />
+      <stop offset="100%" stop-color="#0A0D12" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E0A44C" />
+      <stop offset="100%" stop-color="#E0A44C" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0A0D12" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+  <rect width="1200" height="630" fill="url(#lift)" />
+
+  <!-- lattice motif, right side -->
+  <g stroke="#26324A" stroke-width="1" fill="none" opacity=".9">
+    <path d="M790 470 880 392 986 430 1064 352 1150 386" />
+    <path d="M880 392 902 268 1010 214 1064 352" />
+    <path d="M902 268 812 196 700 244" />
+    <path d="M986 430 1010 214" />
+    <path d="M812 196 880 392" />
+  </g>
+  <g fill="#5C677B">
+    <circle cx="790" cy="470" r="3" />
+    <circle cx="700" cy="244" r="3" />
+    <circle cx="1150" cy="386" r="3" />
+  </g>
+  <g fill="#E0A44C">
+    <circle cx="880" cy="392" r="4.5" />
+    <circle cx="1010" cy="214" r="4" />
+    <rect x="898" y="264" width="8" height="8" />
+    <circle cx="1064" cy="352" r="3.5" opacity=".65" />
+    <circle cx="986" cy="430" r="3.5" opacity=".65" />
+    <circle cx="812" cy="196" r="3.5" opacity=".65" />
+  </g>
+
+  <!-- corner ticks -->
+  <g stroke="#26324A" stroke-width="1" fill="none">
+    <path d="M64 96V64h32" />
+    <path d="M1136 96V64h-32" />
+    <path d="M64 534v32h32" />
+    <path d="M1136 534v32h-32" />
+  </g>
+
+  <!-- eyebrow -->
+  <path d="M64 152h44" stroke="url(#rule)" stroke-width="1.5" />
+  <text class="mono" x="124" y="157" fill="#99A3B3" font-size="15" letter-spacing="4.6">SOFTWARE ENGINEER</text>
+  <text class="mono" x="410" y="157" fill="#3C4759" font-size="15" letter-spacing="4.6">/</text>
+  <text class="mono" x="436" y="157" fill="#99A3B3" font-size="15" letter-spacing="4.6">HYDERABAD, IN</text>
+
+  <!-- name -->
+  <text class="sans" x="60" y="290" fill="#E8E6E1" font-size="118" font-weight="700" letter-spacing="-5">Arpit</text>
+  <text class="sans" x="60" y="396" fill="#99A3B3" font-size="118" font-weight="700" letter-spacing="-5">Mishra</text>
+
+  <!-- role -->
+  <text class="sans" x="64" y="462" fill="#E8E6E1" font-size="24" font-weight="500">Engineer 1 at Ryan, LLC — Owner Claims Portal, Tracker Pro</text>
+
+  <!-- stack strip -->
+  <g class="mono" font-size="15.5" fill="#5C677B" letter-spacing="1.2">
+    <text x="64" y="506">.NET Core</text>
+    <text x="176" y="506" fill="#26324A">·</text>
+    <text x="198" y="506">Angular</text>
+    <text x="290" y="506" fill="#26324A">·</text>
+    <text x="312" y="506">MS SQL Server</text>
+    <text x="474" y="506" fill="#26324A">·</text>
+    <text x="496" y="506">Azure</text>
+    <text x="566" y="506" fill="#26324A">·</text>
+    <text x="588" y="506">LangChain</text>
+  </g>
+
+  <!-- footer line -->
+  <path d="M64 552h1072" stroke="#151C28" stroke-width="1" />
+  <text class="mono" x="64" y="586" fill="#5C677B" font-size="15">arpitm.in</text>
+  <g>
+    <circle cx="1042" cy="581" r="4" fill="#E0A44C" />
+    <text class="mono" x="1060" y="586" fill="#C7B18A" font-size="15" letter-spacing="1.4">OPEN TO TALK</text>
+  </g>
+</svg>
