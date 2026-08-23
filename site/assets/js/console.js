@@ -53,13 +53,13 @@
   /* ── command table ───────────────────────────────────────────────────── */
   var commands = {
     help: {
-      about: "list everything this shell answers to",
+      about: "list the commands",
       run: function () {
         print([{ t: "Available commands", c: "g" }, ""]);
         Object.keys(commands).sort().forEach(function (name) {
           print(key(name, '<span class="d">' + commands[name].about + "</span>"));
         });
-        print(["", { t: "Tab completes. ↑ / ↓ walks history.", c: "d" }]);
+        print(["", { t: "Tab completes a command. Up and down arrows walk the history.", c: "d" }]);
       }
     },
 
@@ -68,26 +68,26 @@
       run: function () {
         print([
           { t: "Arpit Mishra", c: "k" },
-          "Software engineer · Hyderabad, India",
+          "Software engineer, Hyderabad, India",
           "",
           key("role", "Engineer 1 @ Ryan, LLC — since Apr 2026"),
           key("product", "Owner Claims Portal · Tracker Pro"),
           key("before", "Tezo — Keka HRMS, then GenAI for Habasit"),
           key("writes", "C#, TypeScript, T-SQL, Python"),
-          key("cares about", "clean abstractions and review that pushes back")
+          key("studied", "B.Tech, Rungta CET, 2020-2024")
         ]);
       }
     },
 
     now: {
-      about: "what I'm working on this quarter",
+      about: "what I'm working on",
       run: function () {
         print([
-          "Building the <span class=\"k\">Owner Claims Portal</span> inside Tracker Pro — the workflow",
-          "owners use to file, track and resolve property tax claims.",
+          "The <span class=\"k\">Owner Claims Portal</span>, part of Tracker Pro: filing a",
+          "property tax claim, tracking it through review, and settling it.",
           "",
-          "Angular on the front. .NET Core and MS SQL Server behind it. Azure underneath.",
-          { t: "Tax data has to survive an audit; the screen still has to be readable.", c: "d" }
+          "Angular front end. .NET Core services. MS SQL Server. Running on Azure.",
+          { t: "Tax software gets audited, so the record has to hold up years later.", c: "d" }
         ]);
       }
     },
@@ -103,14 +103,14 @@
           key("2024 · jan", "Intern — Tezo"),
           key("2020 — 2024", "B.Tech — Rungta College of Engineering & Technology"),
           "",
-          { t: "impact →  process turnaround −40%   ·   client escalations −28%", c: "g" },
-          { t: "Run 'goto career' for the long form.", c: "d" }
+          { t: "impact →  process turnaround -40%   ·   client escalations -28%", c: "g" },
+          { t: "Run 'goto career' for the detail.", c: "d" }
         ]);
       }
     },
 
     stack: {
-      about: "tools by layer — try 'stack data'",
+      about: "tools by layer, e.g. 'stack data'",
       run: function (args) {
         var layers = {
           interface: ["L5 · Interface", "Angular, TypeScript, RxJS, HTML, CSS, i18n / localization"],
@@ -139,7 +139,7 @@
           key("R-02", '<a href="https://github.com/arpitmishra04/User-Authentication-System-Using-Sessions-" target="_blank" rel="noopener">User Authentication System</a>'),
           key("R-03", '<a href="https://github.com/arpitmishra04/EmployeeDirectory" target="_blank" rel="noopener">Employee Directory</a>'),
           "",
-          { t: "The rest is client-owned and private. Ask me about it instead.", c: "d" }
+          { t: "The rest is client work in private repos.", c: "d" }
         ]);
       }
     },
@@ -153,13 +153,13 @@
           key("github", '<a href="https://github.com/arpitmishra04" target="_blank" rel="noopener">arpitmishra04</a>'),
           key("timezone", "IST · UTC+5:30"),
           "",
-          { t: "LinkedIn or email — I answer both.", c: "d" }
+          { t: "Email or LinkedIn, whichever suits.", c: "d" }
         ]);
       }
     },
 
     open: {
-      about: "open a link — linkedin | github | email | ryan | source",
+      about: "open a link: linkedin | github | email | ryan | source",
       run: function (args) {
         var map = {
           linkedin: "https://www.linkedin.com/in/arpit-mishra-201a331b9/",
@@ -179,7 +179,7 @@
     },
 
     goto: {
-      about: "scroll to a section — try 'goto stack'",
+      about: "scroll to a section, e.g. 'goto stack'",
       run: function (args) {
         var id = (args[0] || "").toLowerCase();
         var known = ["hero", "now", "impact", "career", "stack", "work", "console", "contact"];
@@ -194,12 +194,12 @@
     },
 
     theme: {
-      about: "switch between ink and paper",
+      about: "switch between dark and light",
       run: function (args) {
         var want = (args[0] || "").toLowerCase();
-        var next = want === "ink" || want === "paper"
+        var next = want === "dark" || want === "light"
           ? want
-          : document.documentElement.dataset.theme === "ink" ? "paper" : "ink";
+          : document.documentElement.dataset.theme === "dark" ? "light" : "dark";
         if (window.Site && window.Site.setTheme) window.Site.setTheme(next);
         print("theme → " + next);
       }
@@ -217,17 +217,14 @@
     },
 
     clear: {
-      about: "wipe the scrollback",
+      about: "clear the output",
       run: function () { out.innerHTML = ""; }
     },
 
     sudo: {
-      about: "you already know how this ends",
+      about: "no",
       run: function () {
-        print([
-          { t: "arpit is not in the sudoers file. This incident has been reported.", c: "err" },
-          { t: "…to me. I'll allow it, this once.", c: "d" }
-        ]);
+        print({ t: "arpit is not in the sudoers file. This incident has been reported.", c: "err" });
       }
     }
   };
@@ -251,8 +248,7 @@
     var args = parts.slice(1);
 
     if (aliases[name]) {
-      if (name === "dark") args = ["ink"];
-      if (name === "light") args = ["paper"];
+      if (name === "dark" || name === "light") args = [name];
       name = aliases[name];
     }
 
@@ -343,9 +339,9 @@
     if (booted) return;
     booted = true;
     print([
-      { t: "portfolio shell · v1.0 · type 'help' to begin", c: "d" },
+      { t: "arpit@portfolio · type 'help' for commands", c: "d" },
       "",
-      { t: "Arpit Mishra — Engineer 1 @ Ryan, LLC", c: "k" },
+      { t: "Arpit Mishra — Engineer 1 at Ryan, LLC", c: "k" },
       "Angular · .NET Core · MS SQL Server · Azure · LangChain",
       ""
     ]);

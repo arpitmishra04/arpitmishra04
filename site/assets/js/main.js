@@ -31,18 +31,18 @@
     root.dataset.theme = next;
     try { localStorage.setItem("am-theme", next); } catch (e) { /* private mode */ }
     if (themeBtn) {
-      themeBtn.setAttribute("aria-label", next === "ink" ? "Switch to paper theme" : "Switch to ink theme");
+      themeBtn.setAttribute("aria-label", next === "dark" ? "Switch to light theme" : "Switch to dark theme");
     }
     document.dispatchEvent(new CustomEvent("themechange", { detail: next }));
-    if (!quiet) toast(next === "ink" ? "Ink — lights out" : "Paper — lights on");
+    if (!quiet) toast(next === "dark" ? "Dark theme" : "Light theme");
   }
 
   function flipTheme() {
-    setTheme(root.dataset.theme === "ink" ? "paper" : "ink");
+    setTheme(root.dataset.theme === "dark" ? "light" : "dark");
   }
 
   if (themeBtn) themeBtn.addEventListener("click", flipTheme);
-  setTheme(root.dataset.theme === "paper" ? "paper" : "ink", true);
+  setTheme(root.dataset.theme === "light" ? "light" : "dark", true);
 
   /* ── clocks ──────────────────────────────────────────────────────────── */
   var clocks = [$("#clock"), $("#clock-2")].filter(Boolean);
@@ -301,7 +301,7 @@
     if (!shown.length) {
       var empty = document.createElement("li");
       empty.className = "palette-empty";
-      empty.textContent = "Nothing matches that. Try “career”, “email” or “theme”.";
+      empty.textContent = "No match. Try \u201ccareer\u201d, \u201cemail\u201d or \u201ctheme\u201d.";
       paletteList.appendChild(empty);
       return;
     }

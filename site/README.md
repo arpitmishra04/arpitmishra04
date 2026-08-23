@@ -19,11 +19,12 @@ site/
 Palette, grid and the amber accent are lifted from the hand-authored SVGs in
 [`../assets`](../assets) so the site and the GitHub profile read as one thing.
 
-- **Themes** — `ink` (default) and `paper`, stored under `am-theme` in
+- **Themes** — `dark` (default) and `light`, stored under `am-theme` in
   `localStorage`. First visit follows `prefers-color-scheme`. An inline script in
   `<head>` applies it before first paint so there is no flash.
-- **Type** — IBM Plex Sans / Mono, with Instrument Serif for section subtitles
-  and pull quotes. System stacks are declared as fallbacks.
+- **Type** — system stacks only (`system-ui` for text, `ui-monospace` for code).
+  Nothing is downloaded, nothing blocks the first paint, and no third party is
+  told who is reading the page. The site makes zero external requests.
 - **Motion** — everything checks `prefers-reduced-motion`. When it's set, the
   hero canvas renders one static frame and reveals resolve immediately.
 
