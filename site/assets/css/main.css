@@ -647,6 +647,7 @@ code {
   color: var(--amber);
   margin-bottom: 9px;
 }
+.node-live { font-style: normal; color: var(--dim); }
 .node-head {
   display: flex;
   flex-wrap: wrap;

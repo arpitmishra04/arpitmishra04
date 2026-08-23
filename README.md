@@ -30,7 +30,7 @@ for Habasit — where I learned that a language model only counts as a feature o
 
 ## 02 &nbsp;·&nbsp; Track record
 
-<img src="./assets/career.svg" width="100%" alt="Career line: 2020 B.Tech at Rungta CET; Jan 2024 intern at Tezo; Jul 2024 full stack developer on Keka HRMS; Oct 2024 employee of the month; Oct 2025 full stack and GenAI developer on Habasit; now Engineer 1 at Ryan, LLC." />
+<img src="./assets/career.svg" width="100%" alt="Career line: 2020 B.Tech at Rungta CET; Jan 2024 intern at Tezo; Jul 2024 full stack developer on Keka HRMS; Oct 2024 employee of the month; Oct 2025 full stack and GenAI developer on Habasit; Apr 2026 Engineer 1 at Ryan, LLC." />
 
 | What changed | By how much | Where |
 |:--|:--|:--|

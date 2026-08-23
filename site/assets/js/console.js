@@ -70,7 +70,7 @@
           { t: "Arpit Mishra", c: "k" },
           "Software engineer · Hyderabad, India",
           "",
-          key("role", "Engineer 1 @ Ryan, LLC"),
+          key("role", "Engineer 1 @ Ryan, LLC — since Apr 2026"),
           key("product", "Owner Claims Portal · Tracker Pro"),
           key("before", "Tezo — Keka HRMS, then GenAI for Habasit"),
           key("writes", "C#, TypeScript, T-SQL, Python"),
@@ -96,7 +96,7 @@
       about: "reverse-chronological work history",
       run: function () {
         print([
-          key("now", "Engineer 1 — Ryan, LLC · Tracker Pro"),
+          key("2026 · apr", "Engineer 1 — Ryan, LLC · Tracker Pro  <span class=\"g\">← now</span>"),
           key("2025 · oct", "Full Stack + GenAI Developer — Tezo · Habasit"),
           key("2024 · oct", "Employee of the Month — Tezo"),
           key("2024 · jul", "Full Stack Developer — Tezo · Keka HRMS"),
@@ -241,6 +241,7 @@
   };
 
   function run(raw) {
+    boot();
     var text = String(raw).trim();
     line('<span class="d">PS ~ &gt;</span> <b>' + esc(text) + "</b>", "echo");
     if (!text) { out.scrollTop = out.scrollHeight; return; }
@@ -360,7 +361,7 @@
   }
 
   window.Term = {
-    run: function (cmd) { boot(); run(cmd); },
+    run: function (cmd) { run(cmd); },
     focus: function () {
       boot();
       shell.scrollIntoView({ behavior: "smooth", block: "center" });
