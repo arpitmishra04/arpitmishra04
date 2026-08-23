@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="GitHub metrics placeholder">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="55%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="300" rx="16" fill="url(#edge)" />
+  <rect x="2" y="2" width="896" height="296" rx="14" fill="#0D1117" />
+  <rect x="2" y="2" width="896" height="296" rx="14" fill="url(#sheen)" />
+
+  <circle cx="34" cy="34" r="6" fill="#F472B6" />
+  <circle cx="54" cy="34" r="6" fill="#FBBF24" />
+  <circle cx="74" cy="34" r="6" fill="#22C55E" />
+
+  <text x="450" y="128" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#E6EDF3">GitHub Metrics</text>
+  <text x="450" y="166" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="17" fill="#22D3EE">generated on every push by .github/workflows/metrics.yml</text>
+  <text x="450" y="200" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#8B949E">This placeholder is replaced the first time the workflow runs.</text>
+
+  <rect x="300" y="232" width="300" height="8" rx="4" fill="#161B22" />
+  <rect x="300" y="232" width="130" height="8" rx="4" fill="url(#edge)">
+    <animate attributeName="width" values="40;260;40" dur="2.4s" repeatCount="indefinite" />
+  </rect>
+</svg>

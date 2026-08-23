@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300" role="img" aria-label="Isometric contribution calendar placeholder">
+  <defs>
+    <linearGradient id="edge2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" rx="16" fill="url(#edge2)" />
+  <rect x="2" y="2" width="476" height="296" rx="14" fill="#0D1117" />
+
+  <g transform="translate(240 150)">
+    <g opacity="0.9">
+      <polygon points="0,-46 40,-23 0,0 -40,-23" fill="#22D3EE" opacity="0.85" />
+      <polygon points="-40,-23 0,0 0,46 -40,23" fill="#6D28D9" opacity="0.85" />
+      <polygon points="40,-23 0,0 0,46 40,23" fill="#8B5CF6" opacity="0.85" />
+      <animateTransform attributeName="transform" type="translate" values="0,-6;0,6;0,-6" dur="3s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <text x="240" y="238" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#E6EDF3">Isometric contribution calendar</text>
+  <text x="240" y="262" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">populated by the metrics workflow</text>
+</svg>
