@@ -11,7 +11,7 @@ site/
    ├─ js/trace.js          hero canvas: lattice + travelling request pulses
    ├─ js/console.js        the working shell in section 06
    ├─ js/main.js           theme, command palette, scroll spy, reveals, counters
-   └─ img/                 favicon.svg, og.svg (source) and og.png (rendered)
+   └─ img/                 avatar, favicon.svg, og.svg (source) and og.png (rendered)
 ```
 
 ## Design notes
@@ -53,6 +53,12 @@ any SVG rasteriser, for example:
 ```powershell
 npx --yes @resvg/resvg-js-cli assets/img/og.svg assets/img/og.png --width 1200
 ```
+
+## Avatar
+
+`assets/img/arpit.jpg` is a 192×192 square crop shown at 30px in the header.
+CSS does the rounding, so replacing it only needs a square image — anything
+around 192px keeps it sharp on high-density screens without the weight.
 
 ## Deployment
 

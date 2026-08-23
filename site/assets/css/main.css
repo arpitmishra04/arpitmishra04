@@ -191,7 +191,30 @@ code {
 }
 
 .mark { display: flex; align-items: center; gap: 11px; margin-right: auto; }
-.mark svg { color: var(--text); }
+.avatar {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--panel-2);
+  box-shadow: 0 0 0 1px var(--line-2), 0 0 0 3px transparent;
+  transition: box-shadow .3s var(--ease), transform .3s var(--ease);
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* the source is already monochrome — this only steadies it across themes */
+  filter: grayscale(1) contrast(1.04);
+}
+.mark:hover .avatar {
+  transform: scale(1.06);
+  box-shadow: 0 0 0 1px var(--amber), 0 0 0 3px color-mix(in srgb, var(--amber) 18%, transparent);
+}
+.mark:focus-visible { outline: none; }
+.mark:focus-visible .avatar { box-shadow: 0 0 0 2px var(--amber), 0 0 0 5px color-mix(in srgb, var(--amber) 22%, transparent); }
 .mark-txt {
   font-size: 14px;
   font-weight: 600;
