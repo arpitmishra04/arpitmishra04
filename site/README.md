@@ -63,8 +63,12 @@ One-time setup: **Settings → Pages → Build and deployment → Source: GitHub
 Actions**. To serve it from `arpitm.in`, add the domain under **Custom domain**
 and commit a `CNAME` file containing the bare domain into this folder.
 
-Local preview — any static server will do:
+Local preview — the repo ships a tiny static server with no dependencies:
 
 ```powershell
-npx --yes serve site
+node tools/serve.js          # http://127.0.0.1:8099
+node tools/serve.js 3000     # or pick a port
 ```
+
+It sends `cache-control: no-store`, so a plain refresh always shows your latest
+edit. Any other static server works too — `npx --yes serve site`.
