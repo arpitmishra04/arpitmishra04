@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en" data-theme="ink">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Arpit Mishra — Software Engineer</title>
+
+<meta name="description" content="Arpit Mishra — software engineer in Hyderabad. Engineer 1 at Ryan, LLC on the Owner Claims Portal in Tracker Pro. .NET Core, Angular, MS SQL Server, Azure, and GenAI features that ship with evals attached." />
+<meta name="author" content="Arpit Mishra" />
+<meta name="theme-color" content="#0A0D12" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#F3F0E9" media="(prefers-color-scheme: light)" />
+<link rel="canonical" href="https://www.arpitm.in/" />
+
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Arpit Mishra — Software Engineer" />
+<meta property="og:description" content="Engineer 1 at Ryan, LLC. .NET Core, Angular, MS SQL Server, Azure — and GenAI features that ship with evals attached." />
+<meta property="og:url" content="https://www.arpitm.in/" />
+<meta property="og:image" content="https://www.arpitm.in/assets/img/og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Arpit Mishra — Software Engineer" />
+<meta name="twitter:description" content="Engineer 1 at Ryan, LLC. .NET Core, Angular, MS SQL Server, Azure — and GenAI features that ship with evals attached." />
+<meta name="twitter:image" content="https://www.arpitm.in/assets/img/og.png" />
+
+<link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="./assets/img/favicon.svg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" />
+<link rel="stylesheet" href="./assets/css/main.css" />
+
+<script>
+  /* set the theme before first paint so there's no flash of the wrong one */
+  (function () {
+    try {
+      var saved = localStorage.getItem("am-theme");
+      if (saved !== "ink" && saved !== "paper") {
+        saved = window.matchMedia("(prefers-color-scheme: light)").matches ? "paper" : "ink";
+      }
+      document.documentElement.dataset.theme = saved;
+    } catch (e) { /* storage blocked — the default in the markup stands */ }
+  })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Arpit Mishra",
+  "jobTitle": "Engineer 1",
+  "worksFor": { "@type": "Organization", "name": "Ryan, LLC", "url": "https://tax.com/" },
+  "url": "https://www.arpitm.in/",
+  "email": "mailto:mishra.arpit4040@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Hyderabad", "addressCountry": "IN" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Rungta College of Engineering and Technology" },
+  "knowsAbout": [".NET Core", "C#", "Angular", "TypeScript", "MS SQL Server", "Azure", "LangChain", "LangGraph"],
+  "sameAs": [
+    "https://github.com/arpitmishra04",
+    "https://www.linkedin.com/in/arpit-mishra-201a331b9/"
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip" href="#now">Skip to content</a>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="rule-top" aria-hidden="true"><span id="scroll-bar"></span></div>
+
+<!-- ─────────────────────────────── header ─────────────────────────────── -->
+<header class="topbar">
+  <a class="mark" href="#top" aria-label="Arpit Mishra — top of page">
+    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
+      <rect x="0.75" y="0.75" width="24.5" height="24.5" rx="5.5" fill="none" stroke="currentColor" stroke-opacity=".45"/>
+      <path d="M6.5 18.5 10.4 7.5h1.7l3.9 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8.4 15h5.9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="19" cy="17.6" r="1.7" fill="var(--amber)"/>
+    </svg>
+    <span class="mark-txt">Arpit&nbsp;Mishra</span>
+  </a>
+
+  <nav class="nav" aria-label="Sections">
+    <a href="#now"><i>01</i>Now</a>
+    <a href="#career"><i>03</i>Career</a>
+    <a href="#stack"><i>04</i>Stack</a>
+    <a href="#work"><i>05</i>Work</a>
+    <a href="#contact"><i>07</i>Contact</a>
+  </nav>
+
+  <div class="topbar-actions">
+    <button class="kbd-open" data-open-palette aria-haspopup="dialog">
+      <svg width="13" height="13" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="m10.4 10.4 3.2 3.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <span>Search</span>
+      <kbd id="palette-hint">Ctrl K</kbd>
+    </button>
+    <button class="icon-btn" id="theme-toggle" aria-label="Switch to paper theme" title="Switch theme">
+      <svg class="ico-moon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.2 9.6A5.6 5.6 0 0 1 6 2.4a5.7 5.7 0 1 0 7.2 7.2Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+      <svg class="ico-sun" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.1" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 1v1.8M8 13.2V15M15 8h-1.8M2.8 8H1m11-5-1.3 1.3M5.3 10.7 4 12m8 0-1.3-1.3M5.3 5.3 4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- section rail -->
+<nav class="rail" aria-label="Progress">
+  <ol id="rail-list">
+    <li><a href="#hero" data-rail="hero"><span>00</span><em>Top</em></a></li>
+    <li><a href="#now" data-rail="now"><span>01</span><em>Now</em></a></li>
+    <li><a href="#impact" data-rail="impact"><span>02</span><em>Impact</em></a></li>
+    <li><a href="#career" data-rail="career"><span>03</span><em>Career</em></a></li>
+    <li><a href="#stack" data-rail="stack"><span>04</span><em>Stack</em></a></li>
+    <li><a href="#work" data-rail="work"><span>05</span><em>Work</em></a></li>
+    <li><a href="#console" data-rail="console"><span>06</span><em>Console</em></a></li>
+    <li><a href="#contact" data-rail="contact"><span>07</span><em>Contact</em></a></li>
+  </ol>
+</nav>
+
+<main id="top">
+
+<!-- ──────────────────────────────── hero ──────────────────────────────── -->
+<section class="hero" id="hero">
+  <canvas id="trace" aria-hidden="true"></canvas>
+  <div class="hero-veil" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <p class="eyebrow">
+      <span>Software Engineer</span><b>/</b><span>Hyderabad, IN</span>
+    </p>
+
+    <h1 class="display">
+      <span class="l">Arpit</span>
+      <span class="l">Mishra</span>
+    </h1>
+
+    <p class="lede">
+      I build the unglamorous half properly — <b>.NET Core</b> services, <b>Angular</b> front ends,
+      and <b>GenAI</b> features that only count as shipped once there's a number attached to them.
+    </p>
+
+    <div class="hero-meta">
+      <span class="pill"><i class="dot"></i>Engineer 1 · Ryan, LLC</span>
+      <span class="pill mono" id="clock" title="My local time">—:— IST</span>
+    </div>
+
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#now">
+        Trace the work
+        <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.5v11m0 0 4-4m-4 4-4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="btn" href="mailto:mishra.arpit4040@gmail.com?subject=Hello%20Arpit">Get in touch</a>
+    </div>
+
+    <p class="hero-hint">
+      Press <kbd class="k-mod">Ctrl</kbd><kbd>K</kbd> for the command palette · <kbd>T</kbd> flips the lights
+    </p>
+  </div>
+
+  <a class="scroll-cue" href="#now" aria-label="Scroll to first section"><span></span></a>
+</section>
+
+<!-- ───────────────────────────────── now ──────────────────────────────── -->
+<section class="band" id="now">
+  <div class="wrap split">
+    <div class="col-label">
+      <p class="sect-no">01</p>
+      <h2 class="sect-title">Now</h2>
+      <p class="sect-sub">Where the hours go</p>
+    </div>
+
+    <div class="col-body">
+      <p class="prose big reveal">
+        I'm an engineer at <b>Ryan, LLC</b>, working on the <b>Owner Claims Portal</b> inside
+        <b>Tracker&nbsp;Pro</b> — the property tax software used by the people who file, track and resolve
+        owner claims.
+      </p>
+      <p class="prose reveal">
+        Tax workflows are unforgiving. The data has to survive an audit two years after anyone remembers
+        entering it, and the screen in front of it has to stay readable to people who don't think in schemas.
+        Most of my day is spent making those two requirements agree with each other.
+      </p>
+      <p class="prose reveal">
+        Before this, two years at <b>Tezo</b> — first shipping HRMS features for <b>Keka</b> across three PODs,
+        then GenAI work for <b>Habasit</b>. That second stretch taught me the thing I still lead with:
+        a language model isn't a feature until you can put a number on it.
+      </p>
+
+      <blockquote class="pull reveal">
+        <p>A model is a <em>dependency</em>, not a feature. Validation in front of it, evals behind it,
+        and a metric somebody else can check.</p>
+      </blockquote>
+
+      <dl class="facts reveal">
+        <div><dt>Role</dt><dd>Engineer 1</dd></div>
+        <div><dt>Company</dt><dd><a href="https://tax.com/" target="_blank" rel="noopener">Ryan, LLC ↗</a></dd></div>
+        <div><dt>Product</dt><dd>Owner Claims Portal · Tracker Pro</dd></div>
+        <div><dt>Base</dt><dd>Hyderabad, India · UTC+5:30</dd></div>
+        <div><dt>Working in</dt><dd>.NET Core · Angular · MS SQL · Azure</dd></div>
+        <div><dt>Open to</dt><dd>Hard problems, clean abstractions, review that pushes back</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────── impact ─────────────────────────────── -->
+<section class="band band-alt" id="impact">
+  <div class="wrap">
+    <div class="band-head">
+      <p class="sect-no">02</p>
+      <h2 class="sect-title">What changed</h2>
+      <p class="sect-sub">Numbers I can point at, and where they came from</p>
+    </div>
+
+    <ul class="metrics">
+      <li class="metric reveal">
+        <p class="metric-val"><i class="arrow" aria-hidden="true">▾</i><span class="count" data-to="40" data-suffix="%">0%</span></p>
+        <p class="metric-key">Process turnaround time</p>
+        <p class="metric-src">Habasit US · fabric belt classification</p>
+      </li>
+      <li class="metric reveal">
+        <p class="metric-val"><i class="arrow" aria-hidden="true">▾</i><span class="count" data-to="28" data-suffix="%">0%</span></p>
+        <p class="metric-key">Client escalations</p>
+        <p class="metric-src">Habasit US · configuration generation</p>
+      </li>
+      <li class="metric reveal">
+        <p class="metric-val"><span class="count" data-to="3">0</span></p>
+        <p class="metric-key">Keka PODs shipped across</p>
+        <p class="metric-src">Workforce · RAF · CoreHR</p>
+      </li>
+      <li class="metric reveal">
+        <p class="metric-val"><span class="count" data-to="4">0</span></p>
+        <p class="metric-key">Belt lines owned end to end</p>
+        <p class="metric-src">Habasit Global · PMB · HSS · CLD · ROB</p>
+      </li>
+    </ul>
+
+    <p class="metrics-foot reveal">
+      The win at Habasit was never a cleverer prompt. It was a <b>prompt validation</b> layer in front of the
+      model and an <b>evaluation harness</b> behind it, so bad generations were caught before a human ever
+      saw one. Everything above is downstream of that.
+    </p>
+  </div>
+</section>
+
+<!-- ─────────────────────────────── career ─────────────────────────────── -->
+<section class="band" id="career">
+  <div class="wrap">
+    <div class="band-head">
+      <p class="sect-no">03</p>
+      <h2 class="sect-title">Career line</h2>
+      <p class="sect-sub">Newest first — open a node for the detail</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="node reveal is-open">
+        <div class="node-rail" aria-hidden="true"><i class="knot live"></i></div>
+        <div class="node-body">
+          <p class="node-when">Now</p>
+          <button class="node-head" aria-expanded="true">
+            <span class="node-role">Engineer 1</span>
+            <span class="node-org">Ryan, LLC · Tracker Pro</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="node-detail">
+            <div class="node-detail-in">
+              <p>Building the <b>Owner Claims Portal</b> — the workflow owners use to file, track and resolve
+              property tax claims. Angular on the front, .NET Core and MS SQL Server behind it, Azure underneath.</p>
+              <ul class="tags"><li>Angular</li><li>.NET Core</li><li>C#</li><li>MS SQL Server</li><li>Azure</li></ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="node reveal">
+        <div class="node-rail" aria-hidden="true"><i class="knot"></i></div>
+        <div class="node-body">
+          <p class="node-when">2025 · Oct</p>
+          <button class="node-head" aria-expanded="false">
+            <span class="node-role">Full Stack + GenAI Developer</span>
+            <span class="node-org">Tezo · Habasit</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="node-detail">
+            <div class="node-detail-in">
+              <p><b>Habasit US.</b> I owned fabric belt classification and the configuration generation that
+              follows from it. Added prompt validation and an evaluation harness so bad generations were caught
+              before a human saw them — process time down <b>40%</b>, escalations down <b>28%</b>.</p>
+              <p><b>Habasit Global.</b> Same ownership for <b>PMB</b> (Plastic Modular Belt), <b>HSS</b>,
+              <b>CLD</b> and <b>ROB</b>. Alongside that, a <b>translation engine</b> and a
+              <b>prompt management system</b> — which turned prompts from hard-coded strings into versioned,
+              reviewable, testable assets.</p>
+              <ul class="tags">
+                <li>Python</li><li>LangChain</li><li>LangGraph</li><li>Azure AI Search</li>
+                <li>Intent detection</li><li>Prompt evals</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="node reveal">
+        <div class="node-rail" aria-hidden="true"><i class="knot star"></i></div>
+        <div class="node-body">
+          <p class="node-when">2024 · Oct</p>
+          <button class="node-head" aria-expanded="false">
+            <span class="node-role">Employee of the Month</span>
+            <span class="node-org">Tezo</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="node-detail">
+            <div class="node-detail-in">
+              <p>Awarded during the Keka stretch, for delivery across the RAF and CoreHR PODs.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="node reveal">
+        <div class="node-rail" aria-hidden="true"><i class="knot"></i></div>
+        <div class="node-body">
+          <p class="node-when">2024 · Jul</p>
+          <button class="node-head" aria-expanded="false">
+            <span class="node-role">Full Stack Developer</span>
+            <span class="node-org">Tezo · Keka HRMS</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="node-detail">
+            <div class="node-detail-in">
+              <p>HRMS at enterprise scale, across three PODs:</p>
+              <div class="pods">
+                <div><h4>Workforce</h4><p>Time &amp; attendance, plus i18n and localization in Angular. Client tickets on tight SLAs.</p></div>
+                <div><h4>RAF <span>Rapid Action Force</span></h4><p>Priority enterprise features shipped across PODs to pull back accounts at risk of churning.</p></div>
+                <div><h4>CoreHR</h4><p>Preboarding, onboarding, exits and employee operations — OS defects and RAF delivery.</p></div>
+              </div>
+              <ul class="tags"><li>Angular</li><li>TypeScript</li><li>.NET Core</li><li>C#</li><li>MS SQL Server</li></ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="node reveal">
+        <div class="node-rail" aria-hidden="true"><i class="knot"></i></div>
+        <div class="node-body">
+          <p class="node-when">2024 · Jan</p>
+          <button class="node-head" aria-expanded="false">
+            <span class="node-role">Intern</span>
+            <span class="node-org">Tezo</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="node-detail">
+            <div class="node-detail-in">
+              <p>First contact with a real codebase: Angular on the client, .NET on the server, and the habit of
+              reading a ticket twice before touching anything.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="node reveal">
+        <div class="node-rail" aria-hidden="true"><i class="knot"></i></div>
+        <div class="node-body">
+          <p class="node-when">2020 — 2024</p>
+          <button class="node-head" aria-expanded="false">
+            <span class="node-role">B.Tech</span>
+            <span class="node-org">Rungta College of Engineering &amp; Technology</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="node-detail">
+            <div class="node-detail-in">
+              <p>12th Grade — O.P. Jindal School, Patrapali (Kharsia Rd) · 2019–2020</p>
+              <ul class="certs">
+                <li><span>DSA Training</span><b>Coding Spoon</b></li>
+                <li><span>Cloud Foundations</span><b>AWS Academy Graduate</b></li>
+                <li><span>Responsive Web Design</span><b>freeCodeCamp</b></li>
+                <li><span>Responsive Website Basics</span><b>HTML · CSS · JavaScript</b></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ─────────────────────────────── stack ──────────────────────────────── -->
+<section class="band band-alt" id="stack">
+  <div class="wrap">
+    <div class="band-head">
+      <p class="sect-no">04</p>
+      <h2 class="sect-title">The stack, by layer</h2>
+      <p class="sect-sub">Pick a layer — no progress bars, they never meant anything</p>
+    </div>
+
+    <div class="stack-shell">
+      <div class="layers" role="tablist" aria-label="Stack layers" aria-orientation="vertical">
+        <button role="tab" id="tab-interface" aria-controls="panel-interface" aria-selected="true" tabindex="0" class="layer is-on">
+          <span class="layer-i mono">L5</span><span class="layer-n">Interface</span><span class="layer-h">Angular · TypeScript</span>
+        </button>
+        <button role="tab" id="tab-services" aria-controls="panel-services" aria-selected="false" tabindex="-1" class="layer">
+          <span class="layer-i mono">L4</span><span class="layer-n">Services</span><span class="layer-h">.NET Core · C#</span>
+        </button>
+        <button role="tab" id="tab-intel" aria-controls="panel-intel" aria-selected="false" tabindex="-1" class="layer">
+          <span class="layer-i mono">L3</span><span class="layer-n">Intelligence</span><span class="layer-h">LangChain · evals</span>
+        </button>
+        <button role="tab" id="tab-data" aria-controls="panel-data" aria-selected="false" tabindex="-1" class="layer">
+          <span class="layer-i mono">L2</span><span class="layer-n">Data</span><span class="layer-h">MS SQL · hybrid search</span>
+        </button>
+        <button role="tab" id="tab-platform" aria-controls="panel-platform" aria-selected="false" tabindex="-1" class="layer">
+          <span class="layer-i mono">L1</span><span class="layer-n">Platform</span><span class="layer-h">Azure · DevOps</span>
+        </button>
+      </div>
+
+      <div class="panels">
+        <div role="tabpanel" id="panel-interface" aria-labelledby="tab-interface" class="panel" tabindex="0">
+          <p class="panel-lead">Component APIs that survive the next redesign, and localization that isn't a
+          find-and-replace three weeks before launch.</p>
+          <ul class="chips"><li>Angular</li><li>TypeScript</li><li>RxJS</li><li>HTML</li><li>CSS</li><li>i18n / localization</li><li>Responsive UI</li></ul>
+        </div>
+        <div role="tabpanel" id="panel-services" aria-labelledby="tab-services" class="panel" tabindex="0" hidden>
+          <p class="panel-lead">Boring, well-named endpoints. Domain logic that stays out of controllers, and
+          contracts a front end can be written against before the server is finished.</p>
+          <ul class="chips"><li>.NET Core</li><li>C#</li><li>REST APIs</li><li>OOP</li><li>SOLID</li><li>Design patterns</li></ul>
+        </div>
+        <div role="tabpanel" id="panel-intel" aria-labelledby="tab-intel" class="panel" tabindex="0" hidden>
+          <p class="panel-lead">Where 2025 went. Classification, configuration generation, translation — each
+          one wrapped in validation and measured by an eval suite rather than a demo.</p>
+          <ul class="chips"><li>Python</li><li>LangChain</li><li>LangGraph</li><li>Intent detection</li><li>Prompt validation</li><li>Prompt evals</li><li>Prompt management</li></ul>
+        </div>
+        <div role="tabpanel" id="panel-data" aria-labelledby="tab-data" class="panel" tabindex="0" hidden>
+          <p class="panel-lead">Relational where it belongs, vectors where they help. The query plan is worth
+          reading before the ORM gets blamed.</p>
+          <ul class="chips"><li>MS SQL Server</li><li>T-SQL</li><li>Stored procedures</li><li>Azure AI Search</li><li>Vector search</li><li>Hybrid search</li></ul>
+        </div>
+        <div role="tabpanel" id="panel-platform" aria-labelledby="tab-platform" class="panel" tabindex="0" hidden>
+          <p class="panel-lead">Enough pipeline to make a release boring — which is the only compliment a
+          release deserves.</p>
+          <ul class="chips"><li>Azure App Service</li><li>Function Apps</li><li>Service Bus</li><li>Blob Storage</li><li>Azure DevOps</li><li>Git</li><li>Scrum</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ──────────────────────────────── work ──────────────────────────────── -->
+<section class="band" id="work">
+  <div class="wrap">
+    <div class="band-head">
+      <p class="sect-no">05</p>
+      <h2 class="sect-title">Public work</h2>
+      <p class="sect-sub">Most of what I build belongs to clients and lives in private repos. These are mine</p>
+    </div>
+
+    <ul class="repos">
+      <li class="repo reveal">
+        <a href="https://github.com/arpitmishra04/Whatsapp-Automated-Reply" target="_blank" rel="noopener">
+          <p class="repo-idx mono">R-01</p>
+          <h3>WhatsApp Automated Reply</h3>
+          <p class="repo-desc">Generates replies to incoming WhatsApp messages using the WhatsApp Client API
+          and OpenAI. My first proper look at putting a model behind a real interface.</p>
+          <ul class="tags"><li>JavaScript</li><li>OpenAI API</li><li>Automation</li></ul>
+          <span class="repo-go" aria-hidden="true">View on GitHub ↗</span>
+        </a>
+      </li>
+      <li class="repo reveal">
+        <a href="https://github.com/arpitmishra04/User-Authentication-System-Using-Sessions-" target="_blank" rel="noopener">
+          <p class="repo-idx mono">R-02</p>
+          <h3>User Authentication System</h3>
+          <p class="repo-desc">Session-based auth with a file upload feature built on the Google API —
+          sessions written by hand, before reaching for a library that hides them.</p>
+          <ul class="tags"><li>Sessions</li><li>Google API</li><li>Auth</li></ul>
+          <span class="repo-go" aria-hidden="true">View on GitHub ↗</span>
+        </a>
+      </li>
+      <li class="repo reveal">
+        <a href="https://github.com/arpitmishra04/EmployeeDirectory" target="_blank" rel="noopener">
+          <p class="repo-idx mono">R-03</p>
+          <h3>Employee Directory</h3>
+          <p class="repo-desc">A C# take on the same problem I'd later solve at scale inside an actual HRMS.
+          Useful to compare against what the enterprise version really needed.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li><li>CRUD</li></ul>
+          <span class="repo-go" aria-hidden="true">View on GitHub ↗</span>
+        </a>
+      </li>
+    </ul>
+
+    <p class="repos-foot reveal">
+      The current work — Owner Claims Portal, Keka HRMS, the Habasit GenAI systems — is client-owned.
+      Happy to walk through any of it in a conversation.
+      <a href="https://github.com/arpitmishra04" target="_blank" rel="noopener">All repositories ↗</a>
+    </p>
+  </div>
+</section>
+
+<!-- ─────────────────────────────── console ────────────────────────────── -->
+<section class="band band-alt" id="console">
+  <div class="wrap">
+    <div class="band-head">
+      <p class="sect-no">06</p>
+      <h2 class="sect-title">Console</h2>
+      <p class="sect-sub">It actually works — try <code>help</code> or <code>whoami</code></p>
+    </div>
+
+    <div class="term reveal" id="term">
+      <div class="term-bar">
+        <span class="tl" aria-hidden="true"><i></i><i></i><i></i></span>
+        <p class="term-title mono">arpit@portfolio — pwsh</p>
+        <button class="term-clear mono" data-cmd="clear">clear</button>
+      </div>
+      <div class="term-body" id="term-out" role="log" aria-live="polite" aria-label="Console output"></div>
+      <label class="term-line" for="term-in">
+        <span class="prompt mono" aria-hidden="true">PS <b>~</b> &gt;</span>
+        <input id="term-in" class="mono" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
+               aria-label="Console input. Type help and press Enter." placeholder="type a command…" />
+      </label>
+      <div class="term-tips mono">
+        <button data-cmd="whoami">whoami</button>
+        <button data-cmd="career">career</button>
+        <button data-cmd="stack">stack</button>
+        <button data-cmd="contact">contact</button>
+        <button data-cmd="help">help</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────── contact ────────────────────────────── -->
+<section class="band band-end" id="contact">
+  <div class="wrap">
+    <div class="band-head">
+      <p class="sect-no">07</p>
+      <h2 class="sect-title">Say hello</h2>
+      <p class="sect-sub">LinkedIn or email — I answer both</p>
+    </div>
+
+    <div class="contact-grid">
+      <a class="contact-card wide" href="mailto:mishra.arpit4040@gmail.com?subject=Hello%20Arpit">
+        <p class="cc-k mono">Email</p>
+        <p class="cc-v">mishra.arpit4040@gmail.com</p>
+        <span class="cc-go" aria-hidden="true">Compose ↗</span>
+      </a>
+      <button class="contact-card" id="copy-mail" data-copy="mishra.arpit4040@gmail.com">
+        <p class="cc-k mono">Clipboard</p>
+        <p class="cc-v">Copy address</p>
+        <span class="cc-go" aria-hidden="true">Copy</span>
+      </button>
+      <a class="contact-card" href="https://www.linkedin.com/in/arpit-mishra-201a331b9/" target="_blank" rel="noopener">
+        <p class="cc-k mono">LinkedIn</p>
+        <p class="cc-v">arpit-mishra</p>
+        <span class="cc-go" aria-hidden="true">Open ↗</span>
+      </a>
+      <a class="contact-card" href="https://github.com/arpitmishra04" target="_blank" rel="noopener">
+        <p class="cc-k mono">GitHub</p>
+        <p class="cc-v">arpitmishra04</p>
+        <span class="cc-go" aria-hidden="true">Open ↗</span>
+      </a>
+      <div class="contact-card static">
+        <p class="cc-k mono">Located</p>
+        <p class="cc-v">Hyderabad, India</p>
+        <span class="cc-go mono" id="clock-2" aria-hidden="true">—:— IST</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p class="mono">© <span id="year">2026</span> Arpit Mishra</p>
+    <p class="mono foot-mid">Hand-written HTML, CSS and vanilla JS · no framework, no build step</p>
+    <p class="mono"><a href="https://github.com/arpitmishra04/arpitmishra04" target="_blank" rel="noopener">Source ↗</a></p>
+  </div>
+</footer>
+
+<!-- ────────────────────────── command palette ─────────────────────────── -->
+<div class="palette" id="palette" role="dialog" aria-modal="true" aria-label="Command palette" hidden>
+  <div class="palette-scrim" data-close-palette></div>
+  <div class="palette-box">
+    <div class="palette-in">
+      <span class="mono palette-caret" aria-hidden="true">&gt;</span>
+      <input id="palette-input" type="text" autocomplete="off" spellcheck="false"
+             placeholder="Jump to a section, or run a command…" aria-label="Search commands"
+             role="combobox" aria-controls="palette-list" aria-expanded="true" />
+      <kbd>Esc</kbd>
+    </div>
+    <ul class="palette-list" id="palette-list" role="listbox" aria-label="Commands"></ul>
+    <div class="palette-foot mono">
+      <span><kbd>↑</kbd><kbd>↓</kbd> move</span><span><kbd>↵</kbd> run</span><span><kbd>Esc</kbd> close</span>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="./assets/js/trace.js" defer></script>
+<script src="./assets/js/console.js" defer></script>
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>
